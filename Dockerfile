@@ -1,5 +1,4 @@
-FROM python:3.8-alpine
-MAINTAINER ARJUN SINGHA
+FROM python:3.7-alpine
 
 ENV PYTHONUNBUFFERED 1
 
