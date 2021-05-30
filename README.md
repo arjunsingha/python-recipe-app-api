@@ -15,4 +15,4 @@ docker-compose run app sh -c "python manage.py test && flake8"
 # create core app
 - this core app will contain the migrations, db config and other configurations for the project
 
-docker-compose run app sh -c "python manage.py startapp core
+docker-compose run app sh -c "python manage.py startapp core"
